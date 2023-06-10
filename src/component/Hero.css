@@ -1,18 +1,17 @@
 .hero-section {
-    background-image: url('../asserts/images/backIcons/banner.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-position-x: left;
     position: relative;
-    top: 10px;
-    padding: 40px;
+    top: 0px;    
 }
 
 .hero {
+    background-image: url('../asserts/images/house/3ea37a38326af9cc9eea457961ca9f10.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5px;
     height: 50em;
+    padding: 30px;
 }
 .hero-article {
     display: flex;
@@ -24,12 +23,20 @@
 }
 .heroText {
     color: #1994ff;
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
 }
-
+.hero-article p {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.937);
+}
 .hero img {
-    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    
+    object-fit: fill;
     animation: hero-img 5s infinite;
 }
 @keyframes hero-img {
@@ -51,18 +58,42 @@
 }
 @media screen and (min-width: 768px) {
     .hero-section {
-            background-image: url('../asserts/images/backIcons/banner.png');
-            background-repeat: no-repeat;
-            background-position: bottom;
-            background-position-x: left;
-            position: relative;
+            
             top: 80px;
-            padding: 40px;
         }
 .hero {
-        display: flex;
+        background-image: url('../asserts/images/backIcons/banner.png');
+    background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: left;
+        background-position: bottom;
+        background-position-x: left;
         flex-direction: row;
         gap: 70px;
-        height: 30em;
+        height: 36em;    
     }
+        .heroText {
+            color: #1994ff;
+            font-size: 22px;
+            font-weight: 900;
+            text-align: center;
+        }
+        .heroText {
+            font-size: 30px;
+            font-weight: 900;
+        }
+                .hero-article p {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: rgba(0, 0, 0, 0.519);
+                }
+        
+                .hero img {
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+        
+                    object-fit: cover;
+                    animation: hero-img 5s infinite;
+                }
 }
