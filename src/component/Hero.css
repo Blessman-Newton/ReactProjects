@@ -1,0 +1,99 @@
+.hero-section {
+    position: relative;
+    top: 0px;    
+}
+
+.hero {
+    background-image: url('../asserts/images/house/3ea37a38326af9cc9eea457961ca9f10.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 50em;
+    padding: 30px;
+}
+.hero-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 80px 20px;
+}
+.heroText {
+    color: #1994ff;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.hero-article p {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.937);
+}
+.hero img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    
+    object-fit: fill;
+    animation: hero-img 5s infinite;
+}
+@keyframes hero-img {
+    0% {
+        transform: translateY(-20px);
+    }
+    25% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateY(40px);
+    }
+    75% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+@media screen and (min-width: 768px) {
+    .hero-section {
+            
+            top: 80px;
+        }
+.hero {
+        background-image: url('../asserts/images/backIcons/banner.png');
+    background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: left;
+        background-position: bottom;
+        background-position-x: left;
+        flex-direction: row;
+        gap: 70px;
+        height: 36em;    
+    }
+        .heroText {
+            color: #1994ff;
+            font-size: 22px;
+            font-weight: 900;
+            text-align: center;
+        }
+        .heroText {
+            font-size: 30px;
+            font-weight: 900;
+        }
+                .hero-article p {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: rgba(0, 0, 0, 0.519);
+                }
+        
+                .hero img {
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+        
+                    object-fit: cover;
+                    animation: hero-img 5s infinite;
+                }
+}
