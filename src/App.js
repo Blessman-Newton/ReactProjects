@@ -1,13 +1,23 @@
 import Navbar from './component/Navbar';
-import Login from './component/Login'
+import Search from './component/Search';
+import Hero from './component/Hero';
 import './App.css';
 
 function App() {
     return (
-      <div>
-        <Navbar />
-          <Login />
-      </div>
+      <>
+        <header>
+          <Navbar />
+        </header>
+
+        <main>
+        <section className='hero-section'>
+          <Hero />
+          <Search />
+        </section>
+      </main>
+      </>
+      
   );
 }
 
