@@ -1,0 +1,123 @@
+.featured-section {
+    position: relative;
+    top: 45em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+}
+
+.featured-container {
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.featured-container h1 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #0c0c0cb2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    margin-top: 50px;
+}
+
+.featured-container h5 {
+    color: #0c0c0cb2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 80%;
+}
+.featured-card {
+    width: 100%;
+    height: 22em;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(66, 53, 53, 0.3);
+    cursor: pointer;
+}
+
+.featured-card:hover {
+   transform: scale(1.2);
+   transition: 1s ease-in-out;
+}
+
+.featured-card:nth-child(1) {
+    animation: cards 1s 1 ease-in;
+}
+.featured-card:nth-child(2) {
+    animation: cards 2s 1 ease-in;
+}
+.featured-card:nth-child(3) {
+    animation: cards 3s 1 ease-in;
+}
+.featured-card:nth-child(4) {
+    animation: cards 2s 1 ease-in;
+}
+.featured-card:nth-child(5) {
+    animation: cards 1s 1 ease-in;
+}
+
+@keyframes cards {
+    from {
+        transform: translateY(360px);
+    }
+        to {
+            transform: translateY(0px);
+        }
+}
+.featured-card img {
+    width: 10em;
+    height: 10em;
+}
+
+@media screen and (min-width: 1024px) {
+.featured-section {
+        position: relative;
+        top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 34em;
+       
+    }
+
+.featured {
+        flex-direction: row;
+        height: 25em;
+        padding: 100px 0;
+        width: 100%;
+    }
+
+        .featured-card {
+            width: 12em;
+            height: 16em;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 0 rgba(66, 53, 53, 0.3);
+        }
+
+                .featured-card img {
+                    width: 6em;
+                    height: 6em;
+                }
+}
