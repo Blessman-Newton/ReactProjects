@@ -37,7 +37,7 @@
     position: relative;
     
     object-fit: fill;
-    animation: hero-img 5s infinite;
+    animation: hero-img 5s infinite alternate;
 }
 @keyframes hero-img {
     0% {
