@@ -1,10 +1,11 @@
 .featured-section {
     position: relative;
-    top: 45em;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30em;
+    height: 100%;
+    background: rgba(238, 233, 233, 0.556);
 }
 
 .featured-container {
@@ -113,6 +114,7 @@
             align-items: center;
             gap: 10px;
             border-radius: 10px;
+            cursor: pointer;
             box-shadow: 0 0 10px 0 rgba(66, 53, 53, 0.3);
         }
 
