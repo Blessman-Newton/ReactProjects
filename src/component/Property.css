@@ -1,0 +1,126 @@
+.recent-conatiner span{
+    text-align: center;
+    padding: 50px;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+span h2 {
+    font-size: 30px;
+        font-weight: 900;
+        color: #0c0c0cb2;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.recent-conatiner span p {
+    color: rgba(49, 49, 49, 0.518);
+    text-align: center;
+    width: 50%;
+}
+.property-section {
+    position: relative;
+    top: 0;
+    height: 100%;
+    margin-bottom: 90px;
+}
+
+.property-conatiner {
+ display: grid;
+place-items: center;
+ gap: 30px;
+ grid-template-columns: repeat(1, 1fr);
+flex-wrap: wrap;
+height: 50em;
+width: 100%;
+}
+
+.property {
+    width: 80%;
+    height: 21em;
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 5px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.property img {
+    width: 100%;
+    height: 10em;
+}
+
+.sale {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px 15px;
+    text-transform: capitalize;
+}
+.sale span{
+    width: 80px;
+    height: 25px;
+    padding: 3px;
+    text-align: center;
+    background-color: #1994ff71;
+    color: #1994ff;
+    font-size: small;
+   font-weight: 700;
+   border-radius: 2px;
+}
+.location {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+}
+
+.location b {
+    color: rgba(54, 54, 54, 0.495);
+}
+
+.button  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    padding: 10px;
+}
+
+.button button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #1994ffa5;
+    color: #fff;
+    border-radius: 6px;
+}
+.button button:hover {
+    background: #1994ff;
+    transition: 1s ease-in-out;
+}
+
+@media screen and (min-width: 1024px) {
+    .property-section {
+            top: 80px;
+        }
+    .property-conatiner {
+            grid-template-columns: repeat(3, 1fr);
+        }
+                .property {
+                    width: 16em;
+                    height: 21em;
+                    display: flex;
+                    gap: 10px;
+                    flex-direction: column;
+                    border-radius: 5px;
+                    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+                    background-color: rgb(255, 255, 255);
+        
+                }
+                                .property img {
+                                    width: 16em;
+                                    height: 10em;
+                                }
+}

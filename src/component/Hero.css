@@ -37,19 +37,13 @@
     position: relative;
     
     object-fit: fill;
-    animation: hero-img 5s infinite;
+    animation: hero-img 5s linear infinite;
 }
 @keyframes hero-img {
     0% {
         transform: translateY(-20px);
     }
-    25% {
-        transform: translateY(20px);
-    }
     50% {
-        transform: translateY(40px);
-    }
-    75% {
         transform: translateY(20px);
     }
     100% {
