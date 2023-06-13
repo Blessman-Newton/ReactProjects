@@ -21,6 +21,7 @@ span h2 {
     position: relative;
     top: 0;
     height: 100%;
+    margin-bottom: 90px;
 }
 
 .property-conatiner {
