@@ -1,0 +1,86 @@
+.award-container{
+    height: 100%;
+    position: relative;
+    top: 80px;
+    border-radius: 30px;
+    padding: 80px 40px;
+    background-color: rgb(69, 84, 100);
+
+}
+
+.awards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8em;
+    flex-direction: column;
+}
+.awards h2 {
+    color: #ffffffba;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.awards h4 {
+    color: #1994ff;
+}
+
+.award {
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+.award-card {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+
+}
+
+.award-icon {
+    background: #ffffff27;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.award-icon i {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1994ff;
+}
+
+.cards .award-card:nth-child(2) i  {
+    color: #2fb;
+}
+
+.cards .award-card:nth-child(3) i {
+    color: #cdf;
+}
+
+.cards .award-card:nth-child(4) i {
+    color: #dfb;
+}
+.award-card h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+}
+
+.award-card p {
+    color: #bdbdbd;
+}
