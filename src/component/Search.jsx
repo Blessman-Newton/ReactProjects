@@ -1,4 +1,5 @@
 import './Search.css';
+
 function Search() {
     return (
        <form action="">
