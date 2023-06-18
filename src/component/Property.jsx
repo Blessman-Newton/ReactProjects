@@ -7,11 +7,11 @@ import './Property.css';
 function Property() {
     const getData = () => {
         const list = [];
-        
+
         Data.map((data,index) => {
             return list.push(
                 <div key={index} className='property'>                       
-                    <img src={data.imageHolder} alt="house" />
+                    <img src={data.imgHolder} alt="house" />
                     <div className='sale'>
                         <span>{data.state}</span>
                         <i className='fa fa-heart'></i>
