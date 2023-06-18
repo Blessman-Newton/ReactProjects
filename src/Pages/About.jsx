@@ -3,10 +3,12 @@ import Navbar from '../component/Navbar';
 import React from 'react'
 
 function About() {
+  const colors = '#1994ff';
+  const tops = '4em';
   return (
     <>
         <Navbar />
-        <div>Hi</div>
+        <div style={{color:colors, fontSize: '70px', fontFamily: 'fantasy', display:'flex', justifyContent: 'center', alignItems:'center', top: tops, position: 'relative'}}> This page is loading.....</div>
     </>
     
   )
