@@ -2,15 +2,16 @@
     text-align: center;
     padding: 50px;
     display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 span h2 {
     font-size: 30px;
-        font-weight: 900;
-        color: #0c0c0cb2;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    color: #0c0c0cb2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
 }
 .recent-conatiner span p {
     color: rgba(49, 49, 49, 0.518);

@@ -11,7 +11,6 @@ function App() {
         <header>
           <Navbar />
         </header>
-
         <main>
         <section className='hero-section'>
           <Hero />

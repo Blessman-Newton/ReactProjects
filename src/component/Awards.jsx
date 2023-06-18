@@ -14,7 +14,7 @@ function Awards () {
                 <div className='cards'>
                     <div className="award-card">
                     <div className="award-icon">
-                        <i class="fa fa-trophy" aria-hidden="true"></i>         
+                        <i className="fa fa-trophy" aria-hidden="true"></i>         
                    </div>
                    <div>
                         <h2>40 M</h2>
@@ -23,7 +23,7 @@ function Awards () {
                     </div>
                     <div className="award-card">
                     <div className="award-icon">
-                        <i class="fa fa-gift" aria-hidden="true"></i>         
+                        <i className="fa fa-gift" aria-hidden="true"></i>         
                    </div>
                    <div>
                         <h2>40 M</h2>
@@ -32,7 +32,7 @@ function Awards () {
                     </div>
                     <div className="award-card">
                     <div className="award-icon">
-                        <i class="fa fa-heart" aria-hidden="true"></i>         
+                        <i className="fa fa-heart" aria-hidden="true"></i>         
                    </div>
                    <div>
                         <h2>40 M</h2>
@@ -41,7 +41,7 @@ function Awards () {
                     </div>
                     <div className="award-card">
                     <div className="award-icon">
-                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>         
+                        <i className="fa fa-lightbulb-o" aria-hidden="true"></i>         
                    </div>
                    <div>
                         <h2>40 M</h2>

@@ -19,7 +19,7 @@ function Hero() {
                 </p>
             </article>
             
-            <img src={Home} alt="home-image" />
+            <img src={Home} alt="home" />
             
         </div>
     )
