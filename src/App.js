@@ -4,7 +4,6 @@ import Hero from './component/Hero';
 import Featured from './component/Featured';
 import Property from './component/Property';
 import Awards from './component/Awards';
-import { Route, Link } from 'react-router-dom';
 
 function App() {
     return (
@@ -12,7 +11,6 @@ function App() {
         <header>
           <Navbar />
         </header>
-
         <main>
         <section className='hero-section'>
           <Hero />
