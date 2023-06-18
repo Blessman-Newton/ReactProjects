@@ -6,7 +6,7 @@ import image5 from '../asserts/images/house/3ea37a38326af9cc9eea457961ca9f10.jpg
     
 const Data = [
     {
-        imageHolder: image2,
+        imgHolder: image2,
         state: 'for sale',
         location: 'Cantonments',
         price: '$ 45,000',
@@ -14,7 +14,7 @@ const Data = [
         street: 'Independence Avenue, Ghana'
     },
     {
-        imageHolder: image1,
+        imgHolder: image1,
         state: 'for rent',
         location: 'Labone', 
         price: '$ 32,700',
@@ -22,7 +22,7 @@ const Data = [
         street: 'Independence Avenue, Ghana'
     },
     {
-        imageHolder: image2,
+        imgHolder: image2,
         state: 'for rent',
         location: 'Tranquil Ridge',
         price: '$ 35,000',
@@ -30,7 +30,7 @@ const Data = [
         street: 'Independence Avenue, Ghana'
     },
     {
-        imageHolder: image3,
+        imgHolder: image3,
         state: 'for sales',
         location: 'Trasacco Valley',
         price: '$ 15,000',
@@ -38,7 +38,7 @@ const Data = [
         street: 'Independence Avenue, Ghana'
     },
     {
-        imageHolder: image4,
+        imgHolder: image4,
         state: 'for sale',
         location: 'East Airport',
         price: '$ 20,000',
