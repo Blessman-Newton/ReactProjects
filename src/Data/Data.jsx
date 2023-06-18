@@ -46,7 +46,7 @@ const Data = [
         street: 'Independence Avenue, Ghana'
     },
     {
-        imageHolder: image5,
+        imgHolder: image5,
         state: 'for rent',
         location: 'East Legon Hills',
         price: '$ 45,000',
